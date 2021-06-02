@@ -13,8 +13,8 @@
 #include <stdio.h>
 
 int main() {
-    float vrel = 0.5;
     int dist;
-    scanf("%d ", &dist);
-    printf("%")
+    scanf("%d", &dist);
+    printf("%d minutos\n", dist * 2);
+    return 0;
 }
