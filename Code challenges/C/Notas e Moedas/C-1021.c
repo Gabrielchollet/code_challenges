@@ -27,7 +27,7 @@ int main() {
 
     printf("MOEDAS:\n");
 
-    b += a;
+    b += 100*a;
 
     printf("%d moeda(s) de R$ 1.00\n", b/100);
     b -= (b/100)*100;
