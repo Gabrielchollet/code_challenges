@@ -7,7 +7,7 @@ int main() {
     delta = b*b - 4*a*c;
     if (delta < 0 || a == 0)
     {
-        printf("Impossivel calcular");
+        printf("Impossivel calcular\n");
     }
     else
     {
